@@ -134,6 +134,20 @@ nav h1 {
   margin-left: 195px;
 }
 
+#register-form3 {
+  border: 0.5px solid #ccc; 
+  width: 27%; 
+  padding-bottom: 40px; 
+  border-radius: 4px;  
+  position: relative; 
+  top: 10%; 
+  left: 30%;
+  background-color: #ffffff;
+  margin-top: 5%;
+  margin-right: 0px;
+  margin-left: 195px;
+}
+
 #signupcolumn2 {
   width: 100%;
   height: auto;
@@ -212,7 +226,7 @@ button {
 .signingheader {
   background-color: #ffffff;
   height: 110px;
-  padding-top: 10%;
+  padding-top: 20%;
   border-top: 3px solid #f20e00;
 }
 
