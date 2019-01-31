@@ -1,0 +1,288 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:sans-serif, 'Roboto'; 
+  margin: 0px;
+  padding: 0px;
+  background-image: url("../../img/funfact_bg.jpg");
+  background-size: cover;
+}
+
+body nav {
+  background-color: transparent;
+  padding: 1px;
+  text-align:center;
+  font-weight: bold;
+}
+
+body nav span {
+  color: #f20e00;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav h1 {
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  height: auto;
+  padding: 10px;
+  background-color: transparent;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.register-heading {
+  color: #ffffff;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-bottom: 6px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#control-panel {
+  width: 70%;
+  margin-left: 5%;
+  margin-top: 0px;
+}
+
+#control-panel a {
+  text-decoration: none;
+}
+
+#admin {
+  color: #fff;
+  background-color: #f20e00;
+  border: 2px solid #f20e00;
+  width: 60%;
+  display: inline;
+  margin-right: 3%;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#admin:hover {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+#sizeup {
+  padding-top: 90px;
+  padding-left: 200px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+}
+
+#register-login {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  width: 40%;
+  display: inline;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#register-login:hover {
+  background-color: #00c1c1;
+  border: 2px solid #00c1c1;
+}
+
+#register-form {
+  border: 0.5px solid #ccc; 
+  width: 55%; 
+  padding-top: 0px; 
+  border-radius: 4px;  
+  position: relative; 
+  top: 10%; 
+  left: 30%;
+  background-color: #ffffff;
+  margin-top: 5%;
+}
+
+#register-start {
+  margin-top: 38%;
+  margin-left: 5%;
+  margin-bottom: 0px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#form {
+  padding-top: 3%;
+  padding-left: 35%;
+  padding-bottom: 5%;
+  height: 100%;
+  margin-bottom: 0px;
+}
+
+.icon {
+  font-size: 85px;
+  margin-left: 1%;
+}
+
+.header {
+  text-align: center;
+  color: #000;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.header2 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 0px;  
+  font-weight: bold;
+}
+
+#green {
+  color: green;
+}
+
+input[type=text], input[type=password] {
+  width: 85%;
+  padding: 15px;
+  margin: 5px 0 22px 7.5%;
+  display: inline-block;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #e1e1e1;
+  background: transparent;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  outline: none;
+}
+
+button {
+  background-color: #2d6ff7;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 4px;
+}
+
+.signingheader {
+  background-color: #ffffff;
+  height: 110px;
+  padding-top: 10%;
+  border-top: 3px solid #f20e00;
+}
+
+.signingheader hr {
+  height: 1px;
+  width: 120px;
+  border-bottom: 1px solid#f20e00;
+  background-color: #f20e00;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.signupbtn {
+    background-color:#f20e00;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 7.5%;
+    border: none;
+    cursor: pointer;
+    width: 85%;
+    opacity: 0.9;
+    border-radius: 4px;
+}
+
+.signupbtn:hover {
+  background-color: #00c1c1;
+}
+
+#signin {
+  text-align: center;
+  margin-top: 17px;
+  text-decoration: none;
+  color: black;
+}
+
+
+#inner {
+  color: #6c8593;
+  font-weight: bold;
+}
+
+.label {
+  color: #7c7f85;
+}
+
+.label2 {
+  color: #de2b2b;
+  margin-left: 5px;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+
+  #register-start {
+    text-align: center;
+    margin-bottom: 3%;
+  }
+
+  .register-heading {
+    text-align: center;
+  }
+
+  #control-panel {
+    width: 100%;
+    margin-left: 2%;
+  }
+
+  #admin {
+    width: 45%;
+  }
+
+  #register-login {
+    width: 45%;
+  }
+
+  #register-form {
+    width: 93%;
+    left: 3%;
+  }
+
+}

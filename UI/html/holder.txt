@@ -1,0 +1,21 @@
+ <form action="#" id="register-form">
+                <div class="signingheader">
+                  <h1 class="header">Signup Now</h1>
+                  <hr />
+                </div>
+                <div class="container">
+                  
+                  <input type="text" placeholder="Username" name="email" required>
+    
+                  <input type="text" placeholder="Email" name="email" required>
+            
+                  <input type="password" placeholder="Password" name="psw" required>
+            
+                  <input type="password" placeholder="Confirm Password" name="psw-repeat" required>
+                        
+                  <div class="clearfix">
+                    <a href="../meetups/meetups.html"><button type="submit" class="signupbtn">Sign In</button></a>
+                  </div>
+                  <a href="signup.html" id="signin"><p id="signin">Don't have an account? <span id="inner">Sign Up Now</span></p></a>
+                </div>
+            </form> 

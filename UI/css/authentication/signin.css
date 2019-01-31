@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+#body-background2 {
+  font-family:sans-serif, 'Roboto'; 
+  margin: 0px;
+  padding: 0px;
+  background-image: url("../../img/polico.jpg");
+}
+
+#register-login2 {
+  color: #fff;
+  background-color: #00c1c1;
+  border: 2px solid #00c1c1;
+  width: 40%;
+  display: inline;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#register-login2:hover {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+}
+  
+.signinbody {
+  background-color: #ffffff;
+  height: 110px;
+  padding: 3% 12% 15% 14%;
+}
+
+.signinbody p {
+  text-align: center;
+  color: #888888;
+  font-size: 21px;
+}
+
+#icon2 {
+  font-size: 75px;
+  margin-left: 1%;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  #icon2 {
+    font-size: 60px;
+    margin-left: 1%; 
+  }
+
+  .signinbody {
+    padding: 3% 10% 12% 12%;
+  }
+}
+
+@media only screen and (min-width:760px) and (max-width: 1024px){
+  #icon2 {
+    font-size: 60px;
+    margin-left: 1%; 
+  }
+
+  .signinbody {
+    padding: 3% 10% 12% 12%;
+  }
+
+  #register-form {
+    width: 70%;
+  }
+}
+
+  
