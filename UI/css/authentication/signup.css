@@ -6,7 +6,7 @@ body {
   font-family:sans-serif, 'Roboto'; 
   margin: 0px;
   padding: 0px;
-  background-image: url("../../img/funfact_bg.jpg");
+  background-image: url("../../img/politico2.jpg");
   background-size: cover;
 }
 
@@ -76,6 +76,23 @@ nav h1 {
   font-size: 20px;
 }
 
+#signup-admin {
+  color: #fff;
+  background-color: #f20e00;
+  border: 2px solid #f20e00;
+  width: 40%;
+  display: inline;
+  margin-right: 3%;
+  font-weight: bold;
+  font-size: 20px; 
+  float: right; 
+}
+
+#signup-admin:hover {
+  background-color: transparent;
+  border: 2px solid #fff;  
+}
+
 #admin:hover {
   background-color: transparent;
   border: 2px solid #fff;
@@ -105,7 +122,7 @@ nav h1 {
 
 #register-form {
   border: 0.5px solid #ccc; 
-  width: 55%; 
+  width: 30%; 
   padding-top: 0px; 
   border-radius: 4px;  
   position: relative; 
@@ -113,6 +130,15 @@ nav h1 {
   left: 30%;
   background-color: #ffffff;
   margin-top: 5%;
+  margin-right: 0px;
+  margin-left: 195px;
+}
+
+#signupcolumn2 {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  background-color: transparent;
 }
 
 #register-start {
@@ -122,6 +148,7 @@ nav h1 {
   color: #ffffff;
   font-weight: bold;
 }
+
 
 #form {
   padding-top: 3%;
@@ -226,7 +253,8 @@ button:hover {
 }
 
 .signupbtn:hover {
-  background-color: #00c1c1;
+  background-color: #f20e00;
+  opacity: 0.7;
 }
 
 #signin {
