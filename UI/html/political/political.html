@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--stylesheet-->
+    <link href="../../css/political/political.css" rel="stylesheet" type="text/css">
+    
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="sidenav">
+      <div id="header-div">
+        <a href="../index.html" id="header">P<span id="header-body">OLITICO</span></a>
+      </div>
+      <img src="../../img/admin.jpeg" alt="prof pic" id="profilepicture"/>
+      <h6 class="name">John Doe</h6>
+      <h6 class="name2">Adminstrator</h6>
+      <button id="createparty">Create Political Party</button>
+      
+      <!--the modal-->
+      <div id="myModal" class="modal">
+
+          <div class="modal-content">
+            <span class="close">&times;</span>
+
+            <form action="#">
+              
+              <div class="container">
+                
+                
+                 
+                <input type="text" placeholder="Title" name="title" required>
+
+                <input type="text" placeholder="Description" name="description" required>
+
+                <input type="text" placeholder="Profile Picture" name="profile picture">
+
+                <input type="text" placeholder="Leader" name="leader" required>
+
+                <input type="text" placeholder="Leaders Picture" name="leader picture" required>
+
+                <div class="clearfix">
+                  <a href="../meetups/meetups.html"><button type="submit" id="signupbtn2">Create Party</button></a>
+                </div>
+              </div>
+            </form> 
+          </div>
+      </div>
+
+      <div id="header-div-body">
+        <button class="dashboard">Dashboard</button>
+        <button class="active">Politcal party</button>
+        <button class="dashboard2">Governemnt Office</button>
+        <button class="dashboard2">Profile</button>
+      </div>
+
+    </div>
+
+    <div class="main">
+      <div id="meetups-container">
+        <h4>POLITICAL <span id="parties">PARTIES</span></h4>
+        <a href="../questions/questions.html">
+          <div class="card">
+            <img src="../../img/ford.jpeg" alt="Avatar" style="width:100%">
+            <div class="container">
+              <h6 id="card-header"><b>Ford Kenya <span id="card-span">Party</span></b></h6> 
+              <!-- <i class="fas fa-trash" id="trash"></i>  -->
+              <div class="details">
+                <img src="../../img/wetangula.jpeg" alt="avatar" />
+                <p>Leader <span>Wetangula</span></p> 
+              </div>
+            </div>
+          </div>   
+        </a>
+
+        <a href="../questions/questions.html">
+  
+          <div class="card">
+            <img src="../../img/nasa.jpeg" alt="Avatar" style="width:100%">
+            <div class="container">
+              <h6 id="card-header"><b>NASA <span id="card-span">Party</span></b></h6> 
+              <!-- <i class="fas fa-trash" id="trash"></i>  -->
+              <div class="details">
+                <img src="../../img/nasa.jpeg" alt="avatar" />
+                <p>Leader <span>Raila Odinga</span></p> 
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="../questions/questions.html">
+  
+          <div class="card">
+            <img src="../../img/kanu.gif" alt="Avatar" style="width:100%">
+            <div class="container">
+              <h6 id="card-header"><b>KANU <span id="card-span">Party</span></b></h6> 
+              <!-- <i class="fas fa-trash" id="trash"></i>  -->
+              <div class="details">
+                <img src="../../img/gideon.jpeg" alt="avatar" />
+                <p>Leader <span>Gideon Moi</span></p> 
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="../questions/questions.html">
+  
+          <div class="card">
+              <img src="../../img/urp.jpeg" alt="Avatar" style="width:100%">
+              <div class="container">
+                <h6 id="card-header"><b>URP <span id="card-span">Party</span></b></h6> 
+                <!-- <i class="fas fa-trash" id="trash"></i>  -->
+                <div class="details">
+                  <img src="../../img/ruto.jpg" alt="avatar" />
+                  <p>Leader <span>William Ruto</span></p> 
+                </div>
+              </div>
+          </div>
+        </a>
+        <a href="../questions/questions.html">
+  
+          <div class="card">
+            <img src="../../img/wiper.png" alt="Avatar" style="width:100%">
+            <div class="container">
+              <h6 id="card-header"><b>Wiper <span id="card-span">Party</span></b></h6> 
+              <!-- <i class="fas fa-trash" id="trash"></i>  -->
+              <div class="details">
+                <img src="../../img/kalonzo.jpg" alt="avatar" />
+                <p>Leader <span>Kalonzo Musioka</span></p> 
+              </div>
+            </div>
+          </div>   
+        </a>
+        <a href="../questions/questions.html">
+  
+          <div class="card">
+              <img src="../../img/jubilee2.jpeg" alt="Avatar" style="width:100%">
+              <div class="container">
+                <h6 id="card-header"><b>Jubilee <span id="card-span">Party</span></b></h6> 
+                <!-- <i class="fas fa-trash" id="trash"></i>  -->
+                <div class="details">
+                  <img src="../../img/uhuru.jpg" alt="avatar" />
+                  <p>Leader <span>Uhuru Kenyatta</span></p> 
+                </div>
+              </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!--custom javascript-->
+    <script src="../../js/script.js" ></script>
+  </body>
+</html>
