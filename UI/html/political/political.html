@@ -60,10 +60,45 @@
     <div class="main">
       <div id="meetups-container">
         <h4>POLITICAL <span id="parties">PARTIES</span></h4>
-        <a href="../questions/questions.html">
+        
           <div class="card">
-            <img src="../../img/ford.jpeg" alt="Avatar" style="width:100%">
+            <a href="../questions/questions.html">
+              <img src="../../img/ford.jpeg" alt="Avatar" style="width:100%">
+            </a>
+
             <div class="container">
+              <i class="far fa-edit" id="edit"></i>
+
+              <!--the edit modal-->
+              <div id="myModal2" class="modal">
+
+                  <div class="modal-content">
+                    <span class="close2">&times;</span>
+
+                    <form action="#">
+                      
+                      <div class="container">
+                        
+                        
+                        
+                        <input type="text" placeholder="Title" name="title" required>
+
+                        <input type="text" placeholder="Description" name="description" required>
+
+                        <input type="text" placeholder="Profile Picture" name="profile picture">
+
+                        <input type="text" placeholder="Leader" name="leader" required>
+
+                        <input type="text" placeholder="Leaders Picture" name="leader picture" required>
+
+                        <div class="clearfix">
+                          <a href="../meetups/meetups.html"><button type="submit" id="signupbtn2">Edit Party</button></a>
+                        </div>
+                      </div>
+                    </form> 
+                  </div>
+              </div>
+
               <h6 id="card-header"><b>Ford Kenya <span id="card-span">Party</span></b></h6> 
               <!-- <i class="fas fa-trash" id="trash"></i>  -->
               <div class="details">
@@ -72,7 +107,6 @@
               </div>
             </div>
           </div>   
-        </a>
 
         <a href="../questions/questions.html">
   
