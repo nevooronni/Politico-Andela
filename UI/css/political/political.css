@@ -326,6 +326,20 @@ body {
   font-weight: bold;
 }
 
+.close2 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;  
+}
+
 .close:hover,
 .close:focus {
   color: black;
@@ -475,6 +489,20 @@ form span {
   color: #f20e00;
 }
 
+#edit {
+  color: rgba(46,62,72,.6);
+  font-size: 17px;
+  display: inline;
+  margin-left: 2%;
+  margin-top: 3%;
+  float: left;  
+}
+
+#edit:hover {
+  color: #f20e00;
+  cursor: pointer;
+}
+
 #trash {
   color: rgba(46,62,72,.6);
   font-size: 17px;
@@ -485,8 +513,8 @@ form span {
 }
 
 #trash:hover {
-  color: #e7015e;
-}
+  color: #f20e00;
+  cursor: pointer;
 
 @media only screen and (min-width: 375px) and (max-width: 619px){
   .center button {
