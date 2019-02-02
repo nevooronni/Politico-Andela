@@ -340,6 +340,11 @@ body {
   cursor: pointer;  
 }
 
+.sidenav .link-button {
+  margin: 0;
+  padding: 0;
+}
+
 .close2 {
   color: #aaa;
   float: right;
