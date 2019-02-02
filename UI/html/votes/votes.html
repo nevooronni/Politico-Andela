@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--stylesheet-->
+    <link href="../../css/political/political.css" rel="stylesheet" type="text/css">
+    
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="sidenav">
+      <div id="header-div">
+        <a href="../index.html" id="header">P<span id="header-body">OLITICO</span></a>
+      </div>
+      <img src="../../img/admin.jpeg" alt="prof pic" id="profilepicture"/>
+      <h6 class="name">John Doe</h6>
+
+      <a href="./political.html" class="link-button"><h6 class="name2">Adminstrator</h6></a>
+      <a href="#" class="link-button"><h6 class="name2" >Politician</h6></a>
+      <a href="./userPolitical.html" class="link-button"><h6 class="name2">User</h6></a>
+      
+      <!--the modal-->
+      <div id="myModal" class="modal">
+
+          <div class="modal-content">
+            <span class="close">&times;</span>
+
+            <form action="#">
+              
+              <div class="container">
+                
+                
+                 
+                <input type="text" placeholder="Title" name="title" required>
+
+                <input type="text" placeholder="Description" name="description" required>
+
+                <input type="text" placeholder="Profile Picture" name="profile picture">
+
+                <input type="text" placeholder="Leader" name="leader" required>
+
+                <input type="text" placeholder="Leaders Picture" name="leader picture" required>
+
+                <div class="clearfix">
+                  <a href="../meetups/meetups.html"><button type="submit" id="signupbtn2">Create Party</button></a>
+                </div>
+              </div>
+            </form> 
+          </div>
+      </div>
+
+      <div id="header-div-body">
+        <button class="dashboard">Dashboard</button>
+        <a href="./political.html" class="link-button"><button class="active">Politcal party</button></a>
+        <a href="./office.html" class="link-button"><button class="dashboard2">Governemnt Office</button></a>
+        <a href="../political/profile.html" class="link-button"><button class="dashboard2">Profile</button></a>
+      </div>
+
+    </div>
+
+    <div class="main">
+        <div id="meetups-container">
+            <div id="meetup-container">
+              <h4>CANDIDATE <span id="parties">CHOICE</span></h4>
+                
+                <div class="question-div"> 
+                    <div class="row">
+                        <div class="column1" style="background-color:#f20e00;">
+                            <img src="../../img/gideon.jpeg" alt="avatar" id="avatar-img">                      
+                        </div>
+                        <div class="column2" style="background-color:#ffffff;">
+                          <p id="column-p"><span>Gideon Moi</span> created 20min ago</p>
+                          <p id="column-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                          <div class="icon-result">
+                            <a href="./userPoliticians.html">
+                              <span style="color:#f20e00; font-weight: bold; font-size: 17px;">312,456 Votes</span>
+                            </a>
+                          </div>                        
+                        </div>
+                      </div>
+                </div>
+    
+               
+          </div>
+    </div>
+
+    <!--custom javascript-->
+    <script src="../../js/script.js" ></script>
+  </body>
+</html>
