@@ -83,6 +83,7 @@ body {
 
 .result:hover {
   cursor: pointer;
+  color: #f20e00;
 }
 
 #meetups-container .question-div .row .column1 #avatar-img {
@@ -100,9 +101,6 @@ body {
   margin-top: 5%;
   color: #ffffff;
   font-weight: bold;
-}
-
-.politicians:hover {
 }
 
 .column1 {
