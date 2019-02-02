@@ -83,26 +83,25 @@ body {
 
 .result:hover {
   cursor: pointer;
+  color: #f20e00;
 }
 
 #meetups-container .question-div .row .column1 #avatar-img {
   border-radius: 50%;
-  border: 2px solid #00c1c1;
+  border: 2px solid #ffffff;
   position: relative;
   top: 16%;
   left: 22%;
   margin-right: 10%;
   height: 85px;
   width: 86px;
+  object-fit: fill;
 }
 
 #meetups-container .question-div .row .column1 p {
   margin-top: 5%;
   color: #ffffff;
   font-weight: bold;
-}
-
-.politicians:hover {
 }
 
 .column1 {
@@ -211,6 +210,7 @@ body {
   width: 90px;
   margin-left: 80px;
   margin-top: 20px;
+  object-fit: fill;
 }
 
 #header-div {
