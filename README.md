@@ -12,7 +12,7 @@ Question is a voting app for dedicated to political elections, it allows an admi
 
 This project is managed by pivotal tracker board. [view the board here](https://www.pivotaltracker.com/n/projects/2242388)
 
-The site is published [here]()
+The site is published [here](https://nevooronni.github.io/Politico-Andela/UI/html/index.html)
 
 Features
 -------------------------
