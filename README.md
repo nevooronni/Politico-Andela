@@ -8,7 +8,7 @@
 
 ## Summary 
 -------------------------
-Question is a voting app for dedicated to political elections, it allows an adminstrator to create add political parties, political offices which politicians apply to be candidates and users can vote for them.
+Politico is a voting app for dedicated to political elections, it allows an adminstrator to create add political parties, political offices which politicians apply to be candidates and users can vote for them.
 
 This project is managed by pivotal tracker board. [view the board here](https://www.pivotaltracker.com/n/projects/2242388)
 
