@@ -61,8 +61,3 @@ This project is licensed under the MIT license. See [LICENSE](https://github.com
 Contribution
 ---------------
 Fork this repository, contribute, and create a pull request to this repo's gh-pages branch.
-
-Acknowledgements
------------------
-1. Andela workshops
-2. Andela Bootcamp Team members
